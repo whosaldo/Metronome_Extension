@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "assets/images/hello_extension.png"
+  },
+  "background": {
+    "service_worker": "assets/js/worker.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+
+}
