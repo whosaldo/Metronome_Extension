@@ -17,6 +17,7 @@ quarter1.innerHTML = quarterVolume * 100;
 } );
 
 document.getElementById("RESET").addEventListener("click", resetall);
+document.getElementById("disable").addEventListener("click", disable);
 
 
 var tempo;
@@ -66,6 +67,11 @@ function storeUserPrefs() {
  function resetall()
  {
     chrome.storage.sync.clear();
+ }
+
+ function disable()
+ {
+    disable.innerHTML = 'not yet workin :(';
  }
 
 

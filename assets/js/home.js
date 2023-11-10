@@ -18,11 +18,11 @@ var audioContext = null;
 var isPlaying = false;      // Are we currently playing?
 var startTime;              // The start time of the entire sequence.
 var currentTwelveletNote;        // What note is currently last scheduled?
-var tempo;        // tempo (in beats per minute)
+var tempo = 120;        // tempo (in beats per minute)
 var meter = 4;
-var masterVolume ;
-var accentVolume ;
-var quarterVolume ;
+var masterVolume = 1 ;
+var accentVolume =1;
+var quarterVolume =1 ;
 var eighthVolume = 0;
 var sixteenthVolume = 0;
 var tripletVolume = 0;

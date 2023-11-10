@@ -5,7 +5,7 @@ body
     width: 250px;
     background: rgb(5, 6, 45);
     border-style: solid;
-    border-color:#5B42F3;
+    border-color:#0006ff;
     border-radius: 11px;
 }
 
@@ -22,7 +22,7 @@ h1
 {
     color: red;
     border-style: solid;
-    border-color:#5B42F3;
+    border-color:#241278;
     border-radius: 8px;
     text-decoration: none;
     appearance: button;
@@ -32,7 +32,10 @@ h1
     padding-bottom: 5%;
     padding-left: 2px;
     text-align: center;
-    
+    cursor:pointer;
+    margin-right: 7.5%;
+    padding-left: 2%;
+    padding-right: 3%;
 }
 
 #b_home
@@ -44,7 +47,7 @@ h1
   outline: none;
   color: aliceblue;
   border-style: solid;
-  border-color:#5B42F3;
+  border-color:#241278;
   border-radius: 8px;
   text-decoration: none;
   appearance: button;
@@ -60,7 +63,7 @@ h1
     width: auto;
     display: flex;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 #stretch2{
@@ -87,7 +90,7 @@ h1
 {
     color: aliceblue;
     border-style: solid;
-    border-color:#5B42F3;
+    border-color:#241278;
     border-radius: 8px;
     text-decoration: none;
     appearance: button;
