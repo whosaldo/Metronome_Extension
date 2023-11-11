@@ -1,24 +1,22 @@
 document.getElementById('master').addEventListener('change',
 function() { this.setAttribute('value',this.value);
 masterVolume = (this.value/100) ; 
-master1.innerHTML = masterVolume * 100;
+master1.innerHTML = Math.round(masterVolume * 100); 
 } );
 
 document.getElementById('accent').addEventListener('change',
 function() { this.setAttribute('value',this.value);
 accentVolume = (this.value/100) ; 
-accent1.innerHTML = accentVolume * 100;
+accent1.innerHTML = Math.round(accentVolume * 100); 
 } );
 
 document.getElementById('quarter').addEventListener('change',
 function() { this.setAttribute('value',this.value);
 quarterVolume = (this.value/100) ; 
-quarter1.innerHTML = quarterVolume * 100;
+quarter1.innerHTML = Math.round(quarterVolume * 100); 
 } );
 
 document.getElementById("RESET").addEventListener("click", resetall);
-document.getElementById("disable").addEventListener("click", disable);
-
 
 var tempo;
 var masterVolume;
@@ -35,16 +33,16 @@ function restoreOptions()
 
     masterVolume = settings.masterVolume;
     master.value = (masterVolume * 100);
-    master1.innerHTML = masterVolume * 100;
+    master1.innerHTML = Math.round(masterVolume * 100);
 
     accentVolume = settings.accentVolume;
     accent.value = (accentVolume*100);
-    accent1.innerHTML = accentVolume * 100;
+    accent1.innerHTML = Math.round(accentVolume * 100);
     
 
     quarterVolume = settings.quarterVolume;
     quarter.value = (quarterVolume*100);
-    quarter1.innerHTML = quarterVolume * 100;
+    quarter1.innerHTML = Math.round(quarterVolume * 100);
 
 });
 }
@@ -69,11 +67,7 @@ function storeUserPrefs() {
     chrome.storage.sync.clear();
  }
 
- function disable()
- {
-    disable.innerHTML = 'not yet workin :(';
- }
-
+ 
 
 document.getElementById("b_home").addEventListener("click", storeUserPrefs);
 document.addEventListener('DOMContentLoaded', restoreOptions);

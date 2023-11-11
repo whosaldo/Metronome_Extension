@@ -48,14 +48,16 @@ h1
   outline: none;
   color: aliceblue;
   border-style: solid;
-  border-color:#0006ff;
+  border-color:#241278;
   border-radius: 8px;
   text-decoration: none;
   appearance: button;
   font-size: small;
   padding: 2.5px;
   padding-left: 2px;
-  
+  margin-left: 80%;
+  margin-top: 8%;
+  padding: 2.5%;
 }
 
 #b_save
@@ -66,14 +68,18 @@ h1
   outline: none;
   color: aliceblue;
   border-style: solid;
-  border-color:#0006ff;
+  border-color:#241278;
   border-radius: 8px;
   text-decoration: none;
   appearance: button;
-  font-size: small;
+  font-size: 15px;
   padding: 2.5px;
   padding-left: 2px;
   cursor: pointer;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 5%;
+  margin-top: 5%;
 }
 
 #found
@@ -98,17 +104,7 @@ h1
     margin-left: 7.5%;
 }
 
-#stretch2
-{    
-  position: relative;
-    color: aliceblue;
-    width: auto;
-    display:flex;
-    align-items: center;
-    padding-left: 67%;
-    text-align: center;
-    margin-top: 35%;
-}
+
 
 #set
 {
@@ -126,6 +122,8 @@ h1
   padding: 2.5px;
   display: none;
   cursor: pointer;
+  margin-right: 10%;
+  
 }
 
 

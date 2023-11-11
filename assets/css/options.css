@@ -34,8 +34,8 @@ h1
     text-align: center;
     cursor:pointer;
     margin-right: 7.5%;
-    padding-left: 2%;
-    padding-right: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #b_home
@@ -54,6 +54,7 @@ h1
   font-size: small;
   padding: 2.5px;
   padding-left: 2px;
+  padding: 2.5%;
   
 }
 
@@ -63,8 +64,11 @@ h1
     width: auto;
     display: flex;
     align-items: center;
-    padding-left: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+
 
 #stretch2{
     
@@ -72,7 +76,8 @@ h1
     width: auto;
     display: flex;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 3%;
+    margin-top: 8%;
 }
 
 
@@ -82,34 +87,41 @@ h1
     width: auto;
     display: flex;
     align-items: center;
-    padding-left: 10%;
-
+    margin-left: 22.5%;
 }
 
-#disable
-{
-    color: aliceblue;
-    border-style: solid;
-    border-color:#241278;
-    border-radius: 8px;
-    text-decoration: none;
-    appearance: button;
-    font-size: small;
-    padding: 2.5px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    
-    text-align: center;
-    
-    cursor: pointer;
-}
-
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 125px;
+    height: 7px;
+    background: #241278;
+    border-radius: 5px;
+    background-image: #241278;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: #0006ff;
+    cursor: ew-resize;
+    box-shadow: white;
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
 h3
 {
-  
   font-size: 13.5px;
   color: aliceblue;
- 
 }
 
 h2{
@@ -117,4 +129,5 @@ h2{
     color:aliceblue;
     text-align: center;
 }
+
 
